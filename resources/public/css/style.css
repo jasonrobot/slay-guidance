@@ -1,0 +1,41 @@
+/* some style */
+
+.guidance {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.short-description {
+    font-size: xx-large;
+}
+
+.full-description {
+    font-size: large;
+    width: 50%;
+    text-align: left;
+    margin: 0 auto;
+}
+
+.d4-img {
+    height: 50vh;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.attribute .name {
+    font-weight: bold;
+}
+
+.full-description > * {
+    margin: 10px 0;
+}
+
+.spell-name {
+    font-style: ;
+    font-variant: small-caps;
+    font-size: x-large;
+    color: darkred;
+}
