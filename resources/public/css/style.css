@@ -1,23 +1,26 @@
 /* some style */
 
-.guidance {
+.spell {
     text-align: center;
     width: 50%;
     margin: 0 auto;
 }
 
-.short-description {
+.spell_short-description {
     font-size: xx-large;
 }
 
-.full-description {
+.spell_full-description {
     font-size: large;
     width: 50%;
     text-align: left;
     margin: 0 auto;
+    border-style: double;
+    padding: 0 10px;
+    background-image: url("../parchment.jpg");
 }
 
-.d4-img {
+.spell_image {
     height: 50vh;
 }
 
@@ -29,11 +32,11 @@
     font-weight: bold;
 }
 
-.full-description > * {
+.spell_full-description > * {
     margin: 10px 0;
 }
 
-.spell-name {
+.spell_name {
     font-style: ;
     font-variant: small-caps;
     font-size: x-large;

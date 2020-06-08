@@ -46,8 +46,8 @@
                ;; lein cljsbuild once min
                {:id "min"
                 :source-paths ["src"]
-                :compiler {:output-to "resources/public/js/compiled/guidance.js"
-                           :main guidance.core
+                :compiler {:main guidance.core
+                           :output-to "resources/public/js/compiled/guidance.js"
                            :optimizations :advanced
                            :pretty-print false}}]}
 
