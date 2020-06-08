@@ -1,0 +1,44 @@
+/* some style */
+
+.spell {
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.spell_short-description {
+    font-size: xx-large;
+}
+
+.spell_full-description {
+    font-size: large;
+    width: 50%;
+    text-align: left;
+    margin: 0 auto;
+    border-style: double;
+    padding: 0 10px;
+    background-image: url("../parchment.jpg");
+}
+
+.spell_image {
+    height: 50vh;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.attribute .name {
+    font-weight: bold;
+}
+
+.spell_full-description > * {
+    margin: 10px 0;
+}
+
+.spell_name {
+    font-style: ;
+    font-variant: small-caps;
+    font-size: x-large;
+    color: darkred;
+}

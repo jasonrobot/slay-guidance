@@ -5,11 +5,7 @@
 
 (enable-console-print!)
 
-(println "This text is printed from src/guidance/core.cljs. Go ahead and edit it and see reloading in action.")
-
-;; define your app data so that it doesn't get over-written on reload
-
-(defonce app-state (atom {:text "Hello world!"}))
+;; (defonce app-state (atom {:text "Hello world!"}))
 
 (defn render-attr [name value]
   [:div.attribute {:key name}
@@ -43,5 +39,6 @@
                         ["Components" "V, S"]
                         ["Duration" "Concentration, up to 1 minute"]]}))
 
-(rd/render [guidance]
-           (. js/document (getElementById "app")))
+(defn main! []
+  (rd/render [guidance]
+           (. js/document (getElementById "app"))))
