@@ -4,6 +4,8 @@
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
 
+  :uberjar-name "guidance.jar"
+
   :min-lein-version "2.9.1"
 
   :dependencies [[org.clojure/clojure "1.10.0"]
@@ -13,4 +15,6 @@
 
   :plugins [[lein-ring "0.12.5"]]
 
-  :ring {:handler guidance.server/app})
+  :ring {:handler guidance.server/app}
+
+  :profiles {:uberjar {:main myproject.web, :aot :all}})
